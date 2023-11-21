@@ -33,6 +33,7 @@ body {
     min-height: 100vh;
     position: relative;
     font-size: 18px !important;
+    color: var(--Very-Dark-Blue);
     overflow-x: hidden !important;
     font-family: 'Rubik', sans-serif !important
 }
@@ -75,6 +76,7 @@ header nav .links ul li a.login:hover {
         height: 100vh;
         padding: 20px;
         padding-top: 70px;
+        z-index: 10;
         position: absolute;
         background-color: var(--Very-Dark-Blue);
     }
@@ -116,5 +118,52 @@ header nav .links ul li a.login:hover {
     }
     header nav .links ul li a.login:hover {
         color: var(--Soft-Red);
+    }
+}
+/* Landing */
+.landing {
+    height: 90vh;
+}
+.landing .text-area p {
+    color: var(--Grayish-Blue);
+    margin-bottom: 25px !important;
+}
+.landing .text-area button.get-it-on-chrome {
+    color: white;
+    margin-right: 10px;
+    background-color: var(--Soft-Blue);
+}
+.landing .text-area button.get-it-on-firefox {
+    box-shadow: 0 5px 20px -10px var(--Grayish-Blue);
+}
+.landing .text-area,
+.landing .image-area {
+    width: 50%;
+}
+.landing .image-area {
+    position: relative;
+}
+.landing .image-area::before {
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    content: '';
+    z-index: -1;
+    height: 200px;
+    position: absolute;
+    background-color: var(--Soft-Blue);
+    border-radius: 10px 10px 10px 100px;
+    -webkit-border-radius: 10px 10px 10px 100px;
+    -moz-border-radius: 10px 10px 10px 100px;
+    -ms-border-radius: 10px 10px 10px 100px;
+    -o-border-radius: 10px 10px 10px 100px;
+}
+@media (max-width: 768px) {
+    .landing .text-area,
+    .landing .image-area {
+        width: 100%;
+    }
+    .landing .image-area {
+        margin-bottom: 40px;
     }
 }
