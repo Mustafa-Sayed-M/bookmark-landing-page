@@ -290,3 +290,16 @@ header nav .links ul li a.login:hover {
         margin-top: 0;
     }
 }
+/* Footer */
+footer {
+    background-color: var(--Very-Dark-Blue);
+}
+footer .links {
+    flex-grow: 1;
+}
+footer .links ul li a {
+    color: var(--Grayish-Blue);
+}
+footer .social-links ul li a {
+    color: white;
+}
