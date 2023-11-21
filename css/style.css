@@ -322,3 +322,8 @@ footer .social-links ul li a {
         width: 100%;
     }
 }
+/* Frequently Asked Questions */
+.frequently-asked-questions .btn-more-info {
+    color: white;
+    background-color: var(--Soft-Blue);
+}
