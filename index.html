@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="any">
+  <title>Bookmark landing page</title>
+  <!-- Font Awesome Css File -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Style Bootstrap File -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Style Css File -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="py-3">
+    <nav>
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo">
+          <img src="images/logo-bookmark.svg" alt="Logo">
+        </a>
+        <div class="links">
+          <button onclick="toggleMenu()" type="button" class="border-0 btn btn-close-menu">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <ul class="d-flex align-items-center">
+            <li>
+              <a href="#" class="p-2 px-4">FEATURES</a>
+            </li>
+            <li>
+              <a href="#" class="p-2 px-4">PRICING</a>
+            </li>
+            <li>
+              <a href="#" class="p-2 px-4">CONTACT</a>
+            </li>
+            <li>
+              <a href="#" class="p-2 px-4 login">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+        <button onclick="toggleMenu()" type="button" class="border-0 btn btn-open-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- Script Js File -->
+  <script src="js/script.js"></script>
+</body>
+</html>
