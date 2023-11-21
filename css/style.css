@@ -303,3 +303,22 @@ footer .links ul li a {
 footer .social-links ul li a {
     color: white;
 }
+/* Subscribe Section */
+.subscribe {
+    color: white;
+    background-color: var(--Soft-Blue);
+}
+.subscribe form input {
+    width: 50%;
+}
+.subscribe form button,
+.subscribe form button:hover {
+    color: white;
+    background-color: var(--Soft-Red);
+}
+@media (max-width: 768px) {
+    .subscribe form input,
+    .subscribe form button {
+        width: 100%;
+    }
+}
